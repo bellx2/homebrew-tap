@@ -5,21 +5,21 @@
 class X100cmd < Formula
   desc ""
   homepage ""
-  version "1.2.0"
+  version "1.2.1"
   depends_on :macos
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/bellx2/x100cmd/releases/download/v1.2.0/x100cmd_Darwin_x86_64.tar.gz"
-      sha256 "2f9b31a66ba256390395a09d5b77f6ab4895699c071eb3f83444c594a3ed9391"
+      url "https://github.com/bellx2/x100cmd/releases/download/v1.2.1/x100cmd_Darwin_x86_64.tar.gz"
+      sha256 "19e4de7fbd3c96ddf6f8efb2e32f29ab11a9f2539f8aa1aa811da05aa98aeb52"
 
       def install
         bin.install "x100cmd"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/bellx2/x100cmd/releases/download/v1.2.0/x100cmd_Darwin_arm64.tar.gz"
-      sha256 "13c13aad02bbdd251b5b290e7fe3c144f144682700275ce5b1d9b2893f2fd728"
+      url "https://github.com/bellx2/x100cmd/releases/download/v1.2.1/x100cmd_Darwin_arm64.tar.gz"
+      sha256 "b1d28d3d42ec4dba91399fe09d450b74c32b8d49c7fc19ac51cd8126dcf0d90e"
 
       def install
         bin.install "x100cmd"
