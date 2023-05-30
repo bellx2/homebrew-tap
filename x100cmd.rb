@@ -11,7 +11,7 @@ class X100cmd < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/bellx2/x100cmd/releases/download/v1.3.5/x100cmd_Darwin_arm64.tar.gz"
-      sha256 "f16c3113ab92b7410bfc40ea0f6bab2f98217e04eadea3d76118cf5721ac4cc5"
+      sha256 "835a467980b4c73e9137973431306092ed32abe5841629cf82575efcd7feb546"
 
       def install
         bin.install "x100cmd"
@@ -19,7 +19,7 @@ class X100cmd < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/bellx2/x100cmd/releases/download/v1.3.5/x100cmd_Darwin_x86_64.tar.gz"
-      sha256 "a906009de8db8a524188bd48e07d19716994cbb9dc97b324eb4476079fa8d77c"
+      sha256 "d93d76cb4cdfcdef32873ce025202c58ad7d7c0f7940041136606e15571ae4c3"
 
       def install
         bin.install "x100cmd"
