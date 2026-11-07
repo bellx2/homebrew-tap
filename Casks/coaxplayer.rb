@@ -1,6 +1,6 @@
 cask "coaxplayer" do
-  version "1.0.7"
-  sha256 "99441ce3544e38c4c3c6e1c96af88a2f0de21bbaf1f4cb594617340740fabff5"
+  version "1.0.8"
+  sha256 "428933da001d47eead371e17a16c840bb6f212acb40b561dd84d9fad339d7239"
 
   url "https://github.com/bellx2/CoaxPlayer/releases/download/v#{version}/CoaxPlayer_#{version}_macos-arm64.zip"
   name "CoaxPlayer"
