@@ -11,7 +11,7 @@ class AxisIp < Formula
   def install
     # 探索に macOS の DNS-SD API を cgo で使う
     ENV["CGO_ENABLED"] = "1"
-    system "go", "build", *std_go_args(ldflags: "-s -w")
+    system "go", "build", *std_go_args
   end
 
   test do
