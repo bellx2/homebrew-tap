@@ -1,8 +1,8 @@
 class AxisIp < Formula
   desc "Discover Axis cameras over mDNS and change their IPv4 address via VAPIX"
   homepage "https://github.com/bellx2/axis-ip"
-  url "https://github.com/bellx2/axis-ip/archive/refs/tags/v0.3.2.tar.gz"
-  sha256 "55d9334b2deb77ca2090180894fe5074d25aebd606a94131aded377bf432b414"
+  url "https://github.com/bellx2/axis-ip/archive/refs/tags/v0.3.3.tar.gz"
+  sha256 "a5d596c6860a1eb86b9cab297b2c9cd10e98e5b3b0689233fe6a481331cb4a29"
   license "MIT"
 
   depends_on "go" => :build
